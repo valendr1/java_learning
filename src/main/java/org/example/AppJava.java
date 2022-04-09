@@ -13,7 +13,7 @@ public class AppJava {
         System.out.print("Введите первое число: ");
         d = in.nextDouble();
         System.out.print("Введите второе число число: ");
-        s_num = in.nextByte();
+        s_num = in.nextLong();
         System.out.print("Введите оператор: ");
         //Следующая строка необходима для предотвращения ошибки ввода данных
         String operator1 = in.nextLine();
